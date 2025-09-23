@@ -1,0 +1,4 @@
+body { font-family: Inter, system-ui, Arial, sans-serif; }
+input, select, button { padding: 8px; border-radius: 6px; border: 1px solid #ddd; }
+button { cursor: pointer; }
+ul { padding-left: 18px; margin: 0; }
