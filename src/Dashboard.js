@@ -121,7 +121,7 @@ function Dashboard() {
           <p style={{ fontSize: 22, fontWeight: 700 }}>₹{total}</p>
         </div>
         <div style={cardStyle}>
-          <h3>Your Share (example)</h3>
+          <h3>Your Share</h3>
           <p style={{ fontSize: 20, fontWeight: 700 }}>
             {myShare > 0 ? `+₹${myShare}` : `₹${myShare}`}
           </p>
