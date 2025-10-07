@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:8085/api";
+const API = process.env.REACT_APP_API_URL || "http://localhost:8085/expensebackend/api";
 
 function Dashboard() {
   const [expenses, setExpenses] = useState([]);
@@ -208,7 +208,7 @@ function Dashboard() {
 }
 
 const cardStyle = {
-  background: "#fff",
+  background: "rgba(250, 247, 247, 1)",
   borderRadius: 8,
   padding: 12,
   boxShadow: "0 1px 4px rgba(0,0,0,0.08)",
