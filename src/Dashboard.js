@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:8085/expensebackend/api";
+const API = process.env.REACT_APP_API_URL ;
 
 function Dashboard() {
   const [expenses, setExpenses] = useState([]);
